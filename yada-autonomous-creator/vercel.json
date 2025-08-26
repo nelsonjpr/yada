@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
+      "src": "yada-autonomous-creator/app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.py"
+      "dest": "yada-autonomous-creator/app.py"
     }
   ]
+
 }
